@@ -1,16 +1,8 @@
 import { NgModule } from '@angular/core';
-import { NgxReplaceComponent } from './ngx-replace.component';
-
-
-
+import {NgxReplacePipe} from "./ngx-replace.pipe";
 @NgModule({
-  declarations: [
-    NgxReplaceComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    NgxReplaceComponent
-  ]
+  declarations: [NgxReplacePipe],
+  exports: [NgxReplacePipe],
+  providers: [NgxReplacePipe],
 })
 export class NgxReplaceModule { }
