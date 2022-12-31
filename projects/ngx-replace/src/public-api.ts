@@ -3,4 +3,3 @@
  */
 
 export * from './lib/ngx-replace.pipe';
-export * from './lib/ngx-replace.module';

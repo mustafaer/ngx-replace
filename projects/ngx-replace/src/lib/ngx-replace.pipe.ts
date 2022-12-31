@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'ngx-replace'
+  name: 'ngxReplace',
+  standalone: true
 })
 export class NgxReplacePipe implements PipeTransform {
 
