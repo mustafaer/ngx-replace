@@ -1,27 +1,41 @@
-# NgxReplace
+# Angular Twitter Timeline
+Embed Twitter Timeline in Angular application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Supported version:
+```
+Angular 15
+```
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To install this library, run:
 
-## Code scaffolding
+```bash
+npm i ngx-replace
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
 
-## Build
+Import in your Angular app:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+```typescript
+// Import ngx-replace
+import {NgxReplacePipe} from "ngx-replace";
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        NgxReplacePipe,
+    ],
+    bootstrap: [AppComponent]
+})
+export class AppModule {
+}
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+```angular2html
+<p>{{'My name is %name' | ngxReplace: '%name' : 'Mustafa'}}</p>
+```
