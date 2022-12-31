@@ -1,0 +1,34 @@
+{
+  "name": "ngx-replace",
+  "version": "15.0.1",
+  "description": "Angular Replace Pipe",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafaer/ngx-replace.git"
+  },
+  "url": "https://github.com/mustafaer/ngx-replace/issues",
+  "email": "mustafaerpro@gmail.com",
+  "author": "Mustafa Er",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular 15",
+    "public",
+    "replace",
+    "pipe"
+  ],
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/mustafaer"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/mustafaer"
+    }
+  ]
+}
