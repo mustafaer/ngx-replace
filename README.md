@@ -1,5 +1,5 @@
-# Angular Twitter Timeline
-Embed Twitter Timeline in Angular application.
+# NGX-REPLACE
+Runtime replace pipe.
 
 Supported version:
 ```
